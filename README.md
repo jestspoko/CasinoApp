@@ -6,4 +6,4 @@ npm install
 npm start
 ```
 
-open and run `/Users/lukaszczechowicz/Downloads/comeon-assignment-mobileapps-main/Native/Casino Games App.xcodeproj`
+open and run `Native/Casino Games App.xcodeproj`
