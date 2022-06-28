@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C8C9B4C2864644F003C8B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B4B2864644F003C8B03 /* AppDelegate.swift */; };
+		9C8C9B4E2864644F003C8B03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B4D2864644F003C8B03 /* SceneDelegate.swift */; };
+		9C8C9B502864644F003C8B03 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B4F2864644F003C8B03 /* WebViewViewController.swift */; };
+		9C8C9B5528646469003C8B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8C9B5428646469003C8B03 /* Assets.xcassets */; };
+		9C8C9B5828646469003C8B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8C9B5628646469003C8B03 /* LaunchScreen.storyboard */; };
+		9C8C9B6D28646469003C8B03 /* Casino_Games_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B6C28646469003C8B03 /* Casino_Games_AppUITests.swift */; };
+		9C8C9B6F28646469003C8B03 /* Casino_Games_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B6E28646469003C8B03 /* Casino_Games_AppUITestsLaunchTests.swift */; };
+		9C8C9B7F2864675F003C8B03 /* GameListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B7E2864675F003C8B03 /* GameListViewModel.swift */; };
+		9C8C9B812864688F003C8B03 /* GameListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B802864688F003C8B03 /* GameListViewController.swift */; };
+		9C8C9B8328646971003C8B03 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B8228646971003C8B03 /* GameModel.swift */; };
+		9C8C9B86286469DE003C8B03 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B85286469DE003C8B03 /* Routable.swift */; };
+		9C8C9B8828646A12003C8B03 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B8728646A12003C8B03 /* View.swift */; };
+		9C8C9B8A28646A51003C8B03 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B8928646A51003C8B03 /* Router.swift */; };
+		9C8C9B8C28646B41003C8B03 /* GameDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B8B28646B41003C8B03 /* GameDetailViewController.swift */; };
+		9C8C9B8E28646B51003C8B03 /* GameDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B8D28646B51003C8B03 /* GameDetailViewModel.swift */; };
+		9C8C9B9028646EA5003C8B03 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B8F28646EA5003C8B03 /* BaseViewController.swift */; };
+		9C8C9B9428649ACC003C8B03 /* GameNumberIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C9B9328649ACC003C8B03 /* GameNumberIndicator.swift */; };
+		9CCD33F6286A68C20088540F /* GameListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD33F5286A68C20088540F /* GameListViewModelTest.swift */; };
+		9CCD33F9286A6CB80088540F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD33F8286A6CB80088540F /* UIColor+Extension.swift */; };
+		9CCD33FB286A6DBD0088540F /* UIColor_ExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD33FA286A6DBD0088540F /* UIColor_ExtensionTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C8C9B5F28646469003C8B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8C9B402864644F003C8B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8C9B472864644F003C8B03;
+			remoteInfo = "Casino Games App";
+		};
+		9C8C9B6928646469003C8B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8C9B402864644F003C8B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8C9B472864644F003C8B03;
+			remoteInfo = "Casino Games App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C8C9B482864644F003C8B03 /* Casino Games App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Casino Games App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C9B4B2864644F003C8B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C8C9B4D2864644F003C8B03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C8C9B4F2864644F003C8B03 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		9C8C9B5428646469003C8B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C8C9B5728646469003C8B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C8C9B5928646469003C8B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8C9B5E28646469003C8B03 /* Casino Games AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Casino Games AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C9B6828646469003C8B03 /* Casino Games AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Casino Games AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C9B6C28646469003C8B03 /* Casino_Games_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casino_Games_AppUITests.swift; sourceTree = "<group>"; };
+		9C8C9B6E28646469003C8B03 /* Casino_Games_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casino_Games_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C8C9B7E2864675F003C8B03 /* GameListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListViewModel.swift; sourceTree = "<group>"; };
+		9C8C9B802864688F003C8B03 /* GameListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListViewController.swift; sourceTree = "<group>"; };
+		9C8C9B8228646971003C8B03 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		9C8C9B85286469DE003C8B03 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		9C8C9B8728646A12003C8B03 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		9C8C9B8928646A51003C8B03 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		9C8C9B8B28646B41003C8B03 /* GameDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailViewController.swift; sourceTree = "<group>"; };
+		9C8C9B8D28646B51003C8B03 /* GameDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailViewModel.swift; sourceTree = "<group>"; };
+		9C8C9B8F28646EA5003C8B03 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9C8C9B9328649ACC003C8B03 /* GameNumberIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNumberIndicator.swift; sourceTree = "<group>"; };
+		9CCD33F5286A68C20088540F /* GameListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListViewModelTest.swift; sourceTree = "<group>"; };
+		9CCD33F8286A6CB80088540F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		9CCD33FA286A6DBD0088540F /* UIColor_ExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_ExtensionTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C8C9B452864644F003C8B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C9B5B28646469003C8B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C9B6528646469003C8B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C8C9B3F2864644F003C8B03 = {
+			isa = PBXGroup;
+			children = (
+				9C8C9B4A2864644F003C8B03 /* Casino Games App */,
+				9C8C9B6128646469003C8B03 /* Casino Games AppTests */,
+				9C8C9B6B28646469003C8B03 /* Casino Games AppUITests */,
+				9C8C9B492864644F003C8B03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C8C9B492864644F003C8B03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C9B482864644F003C8B03 /* Casino Games App.app */,
+				9C8C9B5E28646469003C8B03 /* Casino Games AppTests.xctest */,
+				9C8C9B6828646469003C8B03 /* Casino Games AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8C9B4A2864644F003C8B03 /* Casino Games App */ = {
+			isa = PBXGroup;
+			children = (
+				9CCD33F7286A6CAA0088540F /* Extensions */,
+				9CCD33F4286A68840088540F /* Models */,
+				9CCD33F3286A684B0088540F /* Views */,
+				9CCD33F2286A683F0088540F /* Base View Controllers */,
+				9C8C9B7D28646589003C8B03 /* Router */,
+				9C8C9B7C2864657B003C8B03 /* Game Detail */,
+				9C8C9B7B28646572003C8B03 /* Game List */,
+				9C8C9B4B2864644F003C8B03 /* AppDelegate.swift */,
+				9C8C9B4D2864644F003C8B03 /* SceneDelegate.swift */,
+				9C8C9B5428646469003C8B03 /* Assets.xcassets */,
+				9C8C9B5628646469003C8B03 /* LaunchScreen.storyboard */,
+				9C8C9B5928646469003C8B03 /* Info.plist */,
+			);
+			path = "Casino Games App";
+			sourceTree = "<group>";
+		};
+		9C8C9B6128646469003C8B03 /* Casino Games AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CCD33F5286A68C20088540F /* GameListViewModelTest.swift */,
+				9CCD33FA286A6DBD0088540F /* UIColor_ExtensionTest.swift */,
+			);
+			path = "Casino Games AppTests";
+			sourceTree = "<group>";
+		};
+		9C8C9B6B28646469003C8B03 /* Casino Games AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C9B6C28646469003C8B03 /* Casino_Games_AppUITests.swift */,
+				9C8C9B6E28646469003C8B03 /* Casino_Games_AppUITestsLaunchTests.swift */,
+			);
+			path = "Casino Games AppUITests";
+			sourceTree = "<group>";
+		};
+		9C8C9B7B28646572003C8B03 /* Game List */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C9B7E2864675F003C8B03 /* GameListViewModel.swift */,
+				9C8C9B802864688F003C8B03 /* GameListViewController.swift */,
+			);
+			path = "Game List";
+			sourceTree = "<group>";
+		};
+		9C8C9B7C2864657B003C8B03 /* Game Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C9B8B28646B41003C8B03 /* GameDetailViewController.swift */,
+				9C8C9B8D28646B51003C8B03 /* GameDetailViewModel.swift */,
+			);
+			path = "Game Detail";
+			sourceTree = "<group>";
+		};
+		9C8C9B7D28646589003C8B03 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C9B85286469DE003C8B03 /* Routable.swift */,
+				9C8C9B8928646A51003C8B03 /* Router.swift */,
+				9C8C9B8728646A12003C8B03 /* View.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9CCD33F2286A683F0088540F /* Base View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C9B8F28646EA5003C8B03 /* BaseViewController.swift */,
+				9C8C9B4F2864644F003C8B03 /* WebViewViewController.swift */,
+			);
+			path = "Base View Controllers";
+			sourceTree = "<group>";
+		};
+		9CCD33F3286A684B0088540F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C9B9328649ACC003C8B03 /* GameNumberIndicator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9CCD33F4286A68840088540F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C9B8228646971003C8B03 /* GameModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9CCD33F7286A6CAA0088540F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9CCD33F8286A6CB80088540F /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C8C9B472864644F003C8B03 /* Casino Games App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8C9B7228646469003C8B03 /* Build configuration list for PBXNativeTarget "Casino Games App" */;
+			buildPhases = (
+				9C8C9B442864644F003C8B03 /* Sources */,
+				9C8C9B452864644F003C8B03 /* Frameworks */,
+				9C8C9B462864644F003C8B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Casino Games App";
+			productName = "Casino Games App";
+			productReference = 9C8C9B482864644F003C8B03 /* Casino Games App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C8C9B5D28646469003C8B03 /* Casino Games AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8C9B7528646469003C8B03 /* Build configuration list for PBXNativeTarget "Casino Games AppTests" */;
+			buildPhases = (
+				9C8C9B5A28646469003C8B03 /* Sources */,
+				9C8C9B5B28646469003C8B03 /* Frameworks */,
+				9C8C9B5C28646469003C8B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8C9B6028646469003C8B03 /* PBXTargetDependency */,
+			);
+			name = "Casino Games AppTests";
+			productName = "Casino Games AppTests";
+			productReference = 9C8C9B5E28646469003C8B03 /* Casino Games AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C8C9B6728646469003C8B03 /* Casino Games AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8C9B7828646469003C8B03 /* Build configuration list for PBXNativeTarget "Casino Games AppUITests" */;
+			buildPhases = (
+				9C8C9B6428646469003C8B03 /* Sources */,
+				9C8C9B6528646469003C8B03 /* Frameworks */,
+				9C8C9B6628646469003C8B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8C9B6A28646469003C8B03 /* PBXTargetDependency */,
+			);
+			name = "Casino Games AppUITests";
+			productName = "Casino Games AppUITests";
+			productReference = 9C8C9B6828646469003C8B03 /* Casino Games AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C8C9B402864644F003C8B03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9C8C9B472864644F003C8B03 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					9C8C9B5D28646469003C8B03 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9C8C9B472864644F003C8B03;
+					};
+					9C8C9B6728646469003C8B03 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9C8C9B472864644F003C8B03;
+					};
+				};
+			};
+			buildConfigurationList = 9C8C9B432864644F003C8B03 /* Build configuration list for PBXProject "Casino Games App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C8C9B3F2864644F003C8B03;
+			productRefGroup = 9C8C9B492864644F003C8B03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C8C9B472864644F003C8B03 /* Casino Games App */,
+				9C8C9B5D28646469003C8B03 /* Casino Games AppTests */,
+				9C8C9B6728646469003C8B03 /* Casino Games AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C8C9B462864644F003C8B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C9B5828646469003C8B03 /* LaunchScreen.storyboard in Resources */,
+				9C8C9B5528646469003C8B03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C9B5C28646469003C8B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C9B6628646469003C8B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C8C9B442864644F003C8B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C9B7F2864675F003C8B03 /* GameListViewModel.swift in Sources */,
+				9C8C9B8E28646B51003C8B03 /* GameDetailViewModel.swift in Sources */,
+				9C8C9B8C28646B41003C8B03 /* GameDetailViewController.swift in Sources */,
+				9C8C9B86286469DE003C8B03 /* Routable.swift in Sources */,
+				9C8C9B9028646EA5003C8B03 /* BaseViewController.swift in Sources */,
+				9C8C9B502864644F003C8B03 /* WebViewViewController.swift in Sources */,
+				9C8C9B812864688F003C8B03 /* GameListViewController.swift in Sources */,
+				9CCD33F9286A6CB80088540F /* UIColor+Extension.swift in Sources */,
+				9C8C9B8A28646A51003C8B03 /* Router.swift in Sources */,
+				9C8C9B8828646A12003C8B03 /* View.swift in Sources */,
+				9C8C9B4C2864644F003C8B03 /* AppDelegate.swift in Sources */,
+				9C8C9B9428649ACC003C8B03 /* GameNumberIndicator.swift in Sources */,
+				9C8C9B4E2864644F003C8B03 /* SceneDelegate.swift in Sources */,
+				9C8C9B8328646971003C8B03 /* GameModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C9B5A28646469003C8B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCD33F6286A68C20088540F /* GameListViewModelTest.swift in Sources */,
+				9CCD33FB286A6DBD0088540F /* UIColor_ExtensionTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C9B6428646469003C8B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C9B6D28646469003C8B03 /* Casino_Games_AppUITests.swift in Sources */,
+				9C8C9B6F28646469003C8B03 /* Casino_Games_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C8C9B6028646469003C8B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8C9B472864644F003C8B03 /* Casino Games App */;
+			targetProxy = 9C8C9B5F28646469003C8B03 /* PBXContainerItemProxy */;
+		};
+		9C8C9B6A28646469003C8B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8C9B472864644F003C8B03 /* Casino Games App */;
+			targetProxy = 9C8C9B6928646469003C8B03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C8C9B5628646469003C8B03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8C9B5728646469003C8B03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C8C9B7028646469003C8B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C8C9B7128646469003C8B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C8C9B7328646469003C8B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Casino Games App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeon.Casino-Games-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C8C9B7428646469003C8B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Casino Games App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeon.Casino-Games-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C8C9B7628646469003C8B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeon.Casino-Games-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Casino Games App.app/Casino Games App";
+			};
+			name = Debug;
+		};
+		9C8C9B7728646469003C8B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeon.Casino-Games-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Casino Games App.app/Casino Games App";
+			};
+			name = Release;
+		};
+		9C8C9B7928646469003C8B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeon.Casino-Games-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Casino Games App";
+			};
+			name = Debug;
+		};
+		9C8C9B7A28646469003C8B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeon.Casino-Games-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Casino Games App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C8C9B432864644F003C8B03 /* Build configuration list for PBXProject "Casino Games App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C9B7028646469003C8B03 /* Debug */,
+				9C8C9B7128646469003C8B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8C9B7228646469003C8B03 /* Build configuration list for PBXNativeTarget "Casino Games App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C9B7328646469003C8B03 /* Debug */,
+				9C8C9B7428646469003C8B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8C9B7528646469003C8B03 /* Build configuration list for PBXNativeTarget "Casino Games AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C9B7628646469003C8B03 /* Debug */,
+				9C8C9B7728646469003C8B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8C9B7828646469003C8B03 /* Build configuration list for PBXNativeTarget "Casino Games AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C9B7928646469003C8B03 /* Debug */,
+				9C8C9B7A28646469003C8B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C8C9B402864644F003C8B03 /* Project object */;
+}
